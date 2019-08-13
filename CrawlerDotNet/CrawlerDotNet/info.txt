@@ -1,0 +1,8 @@
+﻿https://medium.com/@thepen0411/web-crawling-tutorial-in-c-48d921ef956a
+
+https://docs.microsoft.com/pt-br/dotnet/csharp/programming-guide/classes-and-structs/how-to-override-the-tostring-method
+
+https://pt.stackoverflow.com/questions/203861/criar-um-arquivo-com-o-conte%C3%BAdo-em-c-e-salvar-em-uma-pasta-no-computador
+
+
+https://www.milanbergamoairport.it/en/real-time-flights/#departure
