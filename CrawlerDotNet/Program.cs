@@ -31,15 +31,15 @@ namespace CrawlerDotNet
                 Where(node => node.GetAttributeValue("class", "").
                 Equals("card-curso__info")).ToList();
 
-            //foreach (var div in divs)
-            //{
-            //    var dados = new CrawlerDados
-            //    {
-            //        Nome = div.Descendants("span").FirstOrDefault().InnerText
-            //    };
-            //    lista.Add(dados);
-            //    Console.WriteLine(dados);
-            //}
+            foreach (var div in divs)
+            {
+                var dados = new CrawlerDados
+                {
+                    Nome = div.Descendants("span").FirstOrDefault().InnerText
+                };
+                lista.Add(dados);
+                Console.WriteLine(dados);
+            }
 
             string path = @"c:\temp\MyTest.txt";
             if (!File.Exists(path))
